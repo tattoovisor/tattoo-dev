@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Yii 2 Basic Project Template
 ============================
 
@@ -190,3 +191,8 @@ vendor/bin/codecept run functional,unit -- --coverage-html --coverage-xml
 ```
 
 You can see code coverage output under the `tests/_output` directory.
+=======
+# tattoo-dev
+
+Repositorio del proyecto Tattoovisor
+>>>>>>> 99a4b026dc31f28eb648414d5aad8469cda973e7

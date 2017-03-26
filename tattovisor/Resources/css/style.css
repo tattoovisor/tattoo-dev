@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+}
+
+header {
+	background: -webkit-linear-gradient(black, black);
+	position: relative;
+	width: 100%;
+	top: 0;
+
+}
+
+.menu {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.menu .logo {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.menu .logo .img{
+	vertical-align: top;
+	height: 22px;
+}
+
+.menu .btn-menu {
+	display: none;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.menu .logo:hover {
+	background: #4357ad;
+}
+
+.menu .enlaces {
+	display: inline-block;
+	text-align: right;
+}
+
+.menu .enlaces a{
+	color: #c15252;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+.img-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.img-container img {
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  position: absolute;
+}
+
+.login-form{
+	position: relative;
+	width: auto;
+	height: auto;
+	background: #fff;
+	z-index: 5;
+	border-bottom: 0.2em solid grey;
+	border-left: 0.2em solid grey;
+	border-right: 0.2em solid grey;
+
+}
+
+.login-form>form{
+	color: #000;
+	margin: 5px;
+	font-size: 1em;
+	width: auto;
+	font-family: 'Arial', sans-serif;
+	color: gray;
+	letter-spacing: -0.05em;
+}
